@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+ 
+
+ body, html {
+    height: 100%;
+}
+
+h1 {
+    font-size: 65px;
+}
+  
+  .bgimg {
+    height: 100%;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+  
+
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-family: 'Yellowtail', cursive;
+}
+  
+
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-size: 50px;
+}
+
+.bottomleft:hover {
+    background-color: #9FACE6;
+}
+
+
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#icon {
+    font-size: 50px;
+}
+
+
+  hr {
+    margin: auto;
+    width: 40%;
+    color: white;
+} 
